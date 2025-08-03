@@ -13,7 +13,7 @@ st.set_page_config(page_title="Package Delivery Delay Predictor", layout="wide")
 @st.cache_resource
 def load_model():
     try:
-        return joblib.load("model\model.pkl")
+        return joblib.load("model/model.pkl")
     except Exception as e:
         st.error("❌ Failed to load model.pkl. Check path or retrain it.")
         st.stop()
@@ -21,8 +21,8 @@ def load_model():
 model = load_model()
 
 def load_metrics():
-    if os.path.exists("model\metrics.txt"):
-        with open("model\metrics.txt") as f:
+    if os.path.exists("model/metrics.txt"):
+        with open("model/metrics.txt") as f:
             return f.read()
     return "No training metrics found."
 
