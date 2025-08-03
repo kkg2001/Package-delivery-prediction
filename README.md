@@ -1,0 +1,1 @@
+ Package Delivery Delay Estimator predicts the number of days a package will be delayed based on order logistics (courier type, distance, shipping delay, cities, etc.), and visualize delay risk per city.
