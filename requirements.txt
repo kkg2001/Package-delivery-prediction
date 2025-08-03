@@ -1,12 +1,12 @@
 pandas
 scikit-learn
-sklearn
 matplotlib
 seaborn
 streamlit
 pydeck
 geopy
 joblib
+
 
 
 
