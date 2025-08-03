@@ -15,8 +15,10 @@ Package Delivery Delay Estimator predicts the number of days a package will be d
 - Python
 - Streamlit - Web application framework for Python
 - HTML/CSS - Custom styling and UI components
-- JavaScript (via Streamlit) - Interactive elements
-- JSON - Data storage format
+- Model - RandomForestRegressor
+- Metrics - MAE,R²
+
+
 
 ## How to Run
 # Step 1: Install the requirements
