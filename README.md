@@ -14,7 +14,6 @@ Package Delivery Delay Estimator predicts the number of days a package will be d
 ## Tech Stack
 - Python
 - Streamlit - Web application framework for Python
-- HTML/CSS - Custom styling and UI components
 - Model - RandomForestRegressor
 - Metrics - MAE,R²
 
