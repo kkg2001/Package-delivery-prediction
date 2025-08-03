@@ -2,13 +2,11 @@
 Package Delivery Delay Estimator predicts the number of days a package will be delayed based on order logistics (courier type, distance, shipping delay, cities, etc.), and visualize delay risk per city.
 
 ## Features :hammer_and_wrench:
-- Upload orders (new or historical)
-- Predict number of days delayed
-- Categorize delays (🟢 On Time → 🔴 Severe Delay)
-- Charts: delay distribution, breakdowns
+- Orders can be uoloaded via CSV file
+- Visual Anaylytics to delay distribution and predicted delay days
 - Summary tables by courier and city
-- Interactive map of delivery delays
-- Download enriched prediction data
+- Interactive map of delivery delays by destination city
+- Ready to download CSV file containing prediction of delay in days and delay level
 
 ## Demo 📸
 ![Demo](./Demo/Demo.gif)
