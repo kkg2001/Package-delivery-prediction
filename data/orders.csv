@@ -1,0 +1,6 @@
+order_id,order_date,ship_date,source_city,destination_city,courier_type,distance_km,delivered_on_time
+A001,2023-03-01,2023-03-02,New York,Boston,Express,340,1
+A002,2023-03-01,2023-03-04,Los Angeles,Seattle,Standard,1540,0
+A003,2023-03-02,2023-03-02,Chicago,Chicago,Express,0,1
+A004,2023-03-05,2023-03-07,Houston,Dallas,Standard,390,1
+A005,2023-03-06,2023-03-11,Miami,New York,Standard,1760,0
