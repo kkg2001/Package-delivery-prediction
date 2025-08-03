@@ -21,13 +21,13 @@ Package Delivery Delay Estimator predicts the number of days a package will be d
 
 ## How to Run
 # Step 1: Install the requirements
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 # Step 2: Train the model
-python preprocessing.py
+- python preprocessing.py
 
 # Step 3:  Launch the Application
-streamlit run app/delivery_predictor.py
+- streamlit run app/delivery_predictor.py
 
 ## Future Ideas
 - Use weather/holiday info to enhance delay prediction
